@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "binance_liquidity_profit",
+  "version": "1.0.0",
+  "description": "Take binance liquidity pool apys and push it to google sheet",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "google-spreadsheet": "^3.3.0",
+    "googleapis": "^105.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
